@@ -1,12 +1,12 @@
-# AWS Secure VPC with Terraform
+# VPC AWS Sécurisée avec Terraform
 
-This project creates a secure AWS network infrastructure using Terraform.
+Ce projet crée une infrastructure réseau AWS sécurisée avec Terraform.
 
 ## Architecture
 
 - VPC
-- Public Subnet
-- Private Subnet
+- Subnet Public
+- Subnet Privé
 - Internet Gateway
 - Route Table
 
@@ -16,8 +16,13 @@ This project creates a secure AWS network infrastructure using Terraform.
 - Terraform
 - Git
 
-## Usage
+## Utilisation
 
+```bash
 terraform init
 terraform plan
 terraform apply
+
+## Architecture du Projet
+
+Voici l’architecture de notre VPC avec EC2 et Private Subnets :![Architecture AWS](diagram.png)
